@@ -1,0 +1,39 @@
+.navbar {
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Increased padding for larger NavBar */
+    background-color: #004080;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    font-size: 32px; /* Increased font size for logo */
+    font-weight: bold;
+  }
+  
+  .logoLink {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navItem {
+    margin: 0 20px; /* Increased margin for more spacing */
+    font-size: 22px; /* Increased font size for navigation items */
+    cursor: pointer;
+  }
+  

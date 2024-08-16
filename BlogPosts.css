@@ -1,0 +1,69 @@
+.blog-posts {
+    padding: 20px;
+  }
+  
+  .blog-posts h2 {
+    font-size: 2.2em;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .filter-buttons button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-buttons button.active,
+  .filter-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .post-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 80%;
+    transition: transform 0.3s ease;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .post-card h3 {
+    font-size: 1.5em;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  
+  .post-card p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+  }

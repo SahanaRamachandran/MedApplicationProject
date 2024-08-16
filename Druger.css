@@ -1,0 +1,96 @@
+.drug-recovery {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-image: url(''); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .recovery-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .recovery-header h2 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .recovery-header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .drug-info-section {
+    margin-top: 30px;
+    color: black;
+  }
+  
+  .drug-info-card {
+    background: rgba(175, 204, 226, 0.7);
+    
+    text-align: center;
+  }
+  
+  .drug-info-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .drug-info-card h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #100f0f;
+  }
+  
+  .drug-info-card p {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  .drug-info-card textarea {
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    color: #e9e1e1;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .navigation-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .navigation-buttons button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }

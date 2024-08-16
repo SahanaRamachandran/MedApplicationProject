@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-body p {
+    color: #666;
+    margin: 20px 0;
+}
+
+.donate-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #c9302c;
+}

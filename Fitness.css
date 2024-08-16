@@ -1,0 +1,110 @@
+/* 
+
+   .fitness-exercise {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.fitness-exercise h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.fitness-exercise p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.fitness-info-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitness-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.fitness-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.fitness-card h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.fitness-card p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #666;
+}
+
+.fitness-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  width: 100%;
+  background-color: #007bff;
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 24px;
+  }
+  
+  .question-text {
+    font-size: 18px;
+  }
+  
+  .answer-section button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .score-section {
+    font-size: 24px;
+  }

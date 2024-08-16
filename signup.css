@@ -1,0 +1,35 @@
+.signup-page-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Hide overflow to keep the video contained */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-video {
+  position: absolute; /* Position absolute to cover the entire wrapper */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire viewport */
+  z-index: -1; /* Place video behind other content */
+}
+
+.signup-paper {
+  position: relative; /* Ensure content is above the video */
+  z-index: 1; /* Ensure content is above the video */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; /* Adjust the height as needed */
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.7); /* Increase opacity for brightness */
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Optional: Adds a blur effect for better readability */
+}

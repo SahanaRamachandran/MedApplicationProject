@@ -1,0 +1,67 @@
+.fundraising-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .fundraising-section h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .fundraising-section h3 {
+    font-size: 1.5rem;
+    color: #2dbf56;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2dbf56;
+    display: inline-block;
+  }
+  
+  .fundraising-section p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%; /* Adjust the width to fit 4 items properly */
+  }
+  
+  .item {
+    flex: 0 0 25%; /* Show 4 items at a time */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .item .icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+  }
+  
+  .item h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .item p {
+    color: #666;
+    margin: 5px 0;
+  }
+  

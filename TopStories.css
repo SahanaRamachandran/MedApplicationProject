@@ -1,0 +1,59 @@
+.health-tip {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .health-tip:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container {
+    width: 50%;
+  }
+  
+  .tip-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .tip-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .tip-content {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .tip-title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .tip-title:hover {
+    color: #007BFF; /* Change to your desired hover color */
+  }
+  
+  .tip-text {
+    margin: 10px 0 0;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .tip-text:hover {
+    color: #007BFF; /* Change to your desired hover color */
+  }
+  
